@@ -2,6 +2,10 @@
     cursor: pointer;
 }
 
+.night {
+    color: var(--bg-color);
+}
+
 .light {
-    color: #fff;
+    color: var(--bg-color);
 }

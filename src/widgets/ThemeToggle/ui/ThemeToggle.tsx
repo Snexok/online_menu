@@ -19,7 +19,7 @@ export const ThemeToggle = ({className}: ThemeToggleProps) => {
             onClick={toggleTheme}
         >
             { theme === Theme.DARK 
-                ? <Night/> 
+                ? <Night className={cls.night}/> 
                 : <Light className={cls.light}/>}
         </Button>
     )
